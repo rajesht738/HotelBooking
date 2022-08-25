@@ -1,0 +1,86 @@
+.header {
+    background-color: #003588;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+
+}
+
+.headerList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDesc {
+    margin: 20px 0px;
+}
+
+.headerBtn {
+    background-color: rgb(10, 176, 231);
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.headerSearch {
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 0px;
+    border: 3px solid yellow;
+    position: absolute;
+    background-color: white;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerSearchItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: gray;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.headerIcon {
+    color: lightgray;
+}
+
+.btnSearch {
+    color: white;
+    background-color: #406eb8;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
